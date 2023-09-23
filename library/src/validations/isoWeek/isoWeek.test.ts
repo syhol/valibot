@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { isoWeek } from './isoWeek.ts';
 
 describe('isoWeek', () => {

@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { toMaxValue } from './toMaxValue.ts';
 
 describe('toMaxValue', () => {

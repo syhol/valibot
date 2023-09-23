@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { comparable } from '../../comparable.ts';
 import { nonOptional, optional, string } from '../../schemas/index.ts';
 import { unwrap } from './unwrap.ts';

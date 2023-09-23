@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { parse } from '../../methods/index.ts';
 import { maxValue, minValue } from '../../validations/index.ts';
 import { date } from './date.ts';

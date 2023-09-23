@@ -1,4 +1,4 @@
-import { expect } from 'vitest';
+import { expect } from 'expect';
 
 /**
  * Prepares an object so that it can be compared to another with `.toEqual`.

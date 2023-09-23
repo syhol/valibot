@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { parse } from '../../methods/index.ts';
 import { toCustom } from '../../transformations/index.ts';
 import { blob } from './blob.ts';
@@ -21,7 +22,7 @@ describe('blob', () => {
 
   test('should execute pipe', () => {
     const value = new Blob(['123']);
-    const output = parse(blob([toCustom(() => value)]), new Blob());
+    const output = parse(blob([toCustom(() => value)]), new Blob([]));
     expect(output).toBe(value);
   });
 });

@@ -1,4 +1,6 @@
-import { describe, expect, expectTypeOf, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
+import { expectTypeOf } from 'npm:expect-type';
 import { object, string } from '../../schemas/index.ts';
 import type { Output } from '../../types.ts';
 import { parse } from '../parse/index.ts';

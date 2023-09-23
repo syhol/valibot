@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { cuid2 } from './cuid2.ts';
 
 describe('cuid2', () => {

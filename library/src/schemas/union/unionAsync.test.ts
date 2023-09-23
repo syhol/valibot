@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { parseAsync } from '../../methods/index.ts';
 import { string, stringAsync } from '../string/index.ts';
 import { number, numberAsync } from '../number/index.ts';

@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { parse } from '../../methods/index.ts';
 import { custom } from '../../validations/index.ts';
 import { special } from './special.ts';

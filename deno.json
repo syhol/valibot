@@ -1,0 +1,14 @@
+{
+  "lock": false,
+  "tasks": {
+    "test": "deno test --allow-read",
+    "format": "deno fmt ./library"
+  },
+  "imports": {
+    "expect": "npm:expect@29.7.0",
+    "test": "https://deno.land/std@0.202.0/testing/bdd.ts"
+  },
+  "fmt": {
+    "singleQuote": true
+  }
+}

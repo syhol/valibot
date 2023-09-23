@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import type { Issues } from '../../types.ts';
 import { getIssues } from './getIssues.ts';
 

@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { toCustom } from '../../transformations/index.ts';
 import { minValue } from '../../validations/index.ts';
 import type { Pipe } from '../../types.ts';

@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { parseAsync } from '../../methods/index.ts';
 import { email, maxLength, minLength } from '../../validations/index.ts';
 import { stringAsync } from './stringAsync.ts';

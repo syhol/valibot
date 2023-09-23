@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { date, number, string } from '../../schemas/index.ts';
 import { parse } from '../parse/index.ts';
 import { coerce } from './coerce.ts';

@@ -1,4 +1,5 @@
-import { describe, expect, test } from 'vitest';
+import { describe, it as test } from 'test';
+import { expect } from 'expect';
 import { number, objectAsync, string } from '../../schemas/index.ts';
 import { safeParseAsync } from './safeParseAsync.ts';
 
